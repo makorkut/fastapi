@@ -1,0 +1,8 @@
+# Optional: If you prefer "Docker Compose" build pack in Coolify
+services:
+  api:
+    build: .
+    ports:
+      - "8000"
+    environment:
+      - ENV=prod
